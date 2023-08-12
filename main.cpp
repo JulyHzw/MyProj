@@ -6,6 +6,7 @@ using namespace std;
 typedef int (*pAdd)(int a, int b);
 int main(int argc, char *argv[])
 {
+    // hahahaha
     QCoreApplication a(argc, argv);
     QLibrary mydll("E:/1.study/11.QTtest/build-MyProjDll-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/debug/MyProjDll.dll");
     mydll.load();	// 加载库
